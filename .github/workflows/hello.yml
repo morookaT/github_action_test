@@ -1,0 +1,10 @@
+name: Hello, World!
+on: push
+
+jobs:
+  # buildはジョブのIDなので別の文字列でも可能
+  build:
+    name: Greeting
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello, World!"
