@@ -1,5 +1,8 @@
 name: Hello, World!
-on: push
+on:
+  push:
+    branches:
+      - "**hello**"
 
 jobs:
   # buildはジョブのIDなので別の文字列でも可能
